@@ -12,9 +12,9 @@ for (b = 0; b <= 9; b++)
 {
 if (b > a)
 {
-putchar(a);
-putchar(b);
-if (a != 9 || b != 9)
+putchar(a + '0');
+putchar(b + '0');
+if (a != 8 || b != 9)
 {
 putchar(',');
 putchar(' ');
