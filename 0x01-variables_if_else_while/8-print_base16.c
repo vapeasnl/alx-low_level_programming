@@ -10,7 +10,7 @@ int i;
 char l;
 for (i = 0; i <= 9; i++)
 {
-putchar(i);
+putchar(i + '0');
 }
 for (l = 'a'; l <= 'f'; l++)
 {
