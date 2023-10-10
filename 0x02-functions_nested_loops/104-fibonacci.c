@@ -1,39 +1,40 @@
 #include <stdio.h>
 /**
-* main - fibonacci <3
+* main - fibonacci
 *
-* Purpose - no hardcode
+* Purpose - no hard
 *
 * Return:  (Success)
 */
 int main(void)
 {
+unsigned long int i;
 unsigned long int avnt = 1;
 unsigned long int aprs = 2;
-unsigned long int l = 10000000000;
-unsigned long int avnt1 = 0;
-unsigned long int avnt2 = 0;
-unsigned long int aprs1 = 0;
-unsigned long int aprs2 = 0;
+unsigned long int l = 1000000000;
+unsigned long int bef1;
+unsigned long int bef2;
+unsigned long int aft1;
+unsigned long int aft2;
 printf("%lu", avnt);
-for (int n1 = 1; n1 < 91; n1++)
+for (i = 1; i < 91; i++)
 {
-printf(", %lu", aprs);
-unsigned long int temp = aprs;
+printf(", %lu", aft);
 aprs += avnt;
-avnt = temp;
+avnt = aprs - avnt;
 }
-
-for (int n2 = 92; n2 < 99; ++n2)
+bef1 = (avnt / l);
+bef2 = (avnt % l);
+aft1 = (aprs / l);
+aft2 = (aprs % l);
+for (i = 92; i < 99; ++i)
 {
-printf(", %lu", aprs1 + (aprs2 / l));
-printf("%010lu", aprs2 % l);
-unsigned long int temp1 = aprs1;
-aprs1 += avnt1;
-avnt1 = temp1;
-unsigned long int temp2 = aprs2;
-aprs2 += avnt2;
-avnt2 = temp2;
+printf(", %lu", aft1 + (aft2 / l));
+printf("%lu", aft2 % l);
+aft1 = aft1 + bef1;
+bef1 = aft1 - bef1;
+aft2 = aft2 + bef2;
+bef2 = aft2 - bef2;
 }
 printf("\n");
 return (0);
