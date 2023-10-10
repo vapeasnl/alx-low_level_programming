@@ -19,7 +19,7 @@ unsigned long int aft2;
 printf("%lu", avnt);
 for (i = 1; i < 91; i++)
 {
-printf(", %lu", aft);
+printf(", %lu", aprs);
 aprs += avnt;
 avnt = aprs - avnt;
 }
