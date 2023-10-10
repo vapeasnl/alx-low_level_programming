@@ -30,7 +30,7 @@ aprs2 = (aprs % l);
 for (n = 92; n < 99; ++n)
 {
 printf(", %lu", aprs1 + (aprs2 / l));
-printf("%lu", aft2 % l);
+printf("%lu", aprs2 % l);
 aprs1 = aprs1 + avnt1;
 avnt1 = aprs1 - avnt1;
 aprs2 = aprs2 + avnt2;
