@@ -17,7 +17,7 @@ j++;
 lengh++;
 }
 i = lengh - 1;
-for (k = 0 ; k <= i ; o++)
+for (k = 0 ; k <= i ; k++)
 {
 if (k % 2 == 0)
 {
