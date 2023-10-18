@@ -14,7 +14,7 @@ char *cap_string(char *str)
 		while (!(str[head] >= 'a' && str[head] <= 'z'))
 			head++;
 
-		if (str[head - 1] == ' ' || str[head - 1] == '\t' || str[head - 1] == '\n' || str[head - 1] == ',' || str[head - 1] == ';' || str[head - 1] == '.' || str[head - 1] == '!' || str[head - 1] == '?' || str[head - 1] == '"' || str[head - 1] == '(' || str[head - 1] == ')' || str[head - 1] == '{' ||  str[head - 1] == '}' || head == 0)
+		if (str[head - 1] == ' ' || str[head - 1] == '\t' || str[head - 1] == '\n' || str[head - 1] == ',' || str[head - 1] == ';' || str[head - 1] == '.' || str[head - 1] == '!' || str[head - 1] == '?' || str[head - 1] == '"' || str[head - 1] == '(' || str[head - 1] == ')' || str[head - 1] == '{' || str[head - 1] == '}' || head == 0)
 		       str[head] -= 32;
 
 	head++;
