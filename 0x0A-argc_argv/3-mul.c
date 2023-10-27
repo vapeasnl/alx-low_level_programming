@@ -53,7 +53,7 @@ return (1);
 }
 n1 = _atoi(argv[1]);
 n2 = _atoi(argv[2]);
-result = n1 * n2;
+result = n1 *n2;
 printf("%d\n", result);
 return (0);
 }
