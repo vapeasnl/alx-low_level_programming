@@ -17,7 +17,7 @@ s2 = "";
 x = cx = 0;
 while (s1[x] != '\0')
 x++;
-while (s2[ci] != '\0')
+while (s2[cx] != '\0')
 cx++;
 chain = malloc(sizeof(char) * (x + cx + 1));
 if (chain == NULL)
