@@ -51,7 +51,7 @@ tmp = (char *) malloc(sizeof(char) * (y + 1));
 if (tmp == NULL)
 return (NULL);
 while (dbt < fn)
-*tmp++ = str[start++];
+*tmp++ = str[dbt++];
 *tmp = '\0';
 mat[v] = tmp - y;
 v++;
