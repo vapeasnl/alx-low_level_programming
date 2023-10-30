@@ -29,7 +29,7 @@ return (NULL);
 }
 for (a = 0; a < height; a++)
 {
-for (y = 0; b < width; b++)
+for (b = 0; b < width; b++)
 dim[a][b] = 0;
 }
 return (dim);
