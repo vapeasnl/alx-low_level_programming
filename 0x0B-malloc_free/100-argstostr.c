@@ -13,7 +13,7 @@ int a, b, c = 0, d = 0;
 char *ch;
 if (ac == 0 || av == NULL)
 return (NULL);
-for (a = 0; a < ac; ia)
+for (a = 0; a < ac; a++)
 {
 for (b = 0; av[a][b]; b++)
 d++;
