@@ -108,7 +108,7 @@ for (s1 = 0; argv[1][s1]; s1++)
 for (s2 = 0; argv[2][s2]; s2++)
 ;
 sn = s1 + s2 + 1;
-a = malloc(sn * sizeof(char));
+a = malloc(sn *sizeof(char));
 if (a == NULL)
 {
 for (tx = 0; e[tx]; tx++)
