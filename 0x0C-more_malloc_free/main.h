@@ -9,7 +9,6 @@ void *malloc_checked(unsigned int b);
 int _putchar(char c);
 void _move_andprint(char *ch, int size);
 void initializes(char *ch, int length);
-int main(int argc, char *argv[]);
 int check_fordigits(char **pav);
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,6 +20,5 @@ int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void _move_andprint(char *ch, int size);
 void initializes(char *ch, int length);
-int main(int argc, char *argv[]);
 int check_fordigits(char **pav);
 #endif
