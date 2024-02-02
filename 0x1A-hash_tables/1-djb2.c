@@ -11,6 +11,6 @@ unsigned long int h;
 int c;
 h = 5381;
 while ((c = *str++))
-h = ((h << 5) + h) + c;
+h = ((h << 5) + h) +c;
 return (h);
 }
