@@ -14,7 +14,6 @@ int array[] = {
 size_t size = sizeof(array) / sizeof(array[0]);
 printf("Found %d at index: %d\n\n", 3, interpolation_search(array, size, 3));
 printf("Found %d at index: %d\n\n", 7, interpolation_search(array, size, 7));
-printf("Found %d at index: %d\n", 999, interpolation_search(array, size, 99
-9));
+printf("Found %d at index: %d\n", 999, interpolation_search(array, size, 999));
 return (EXIT_SUCCESS);
 }
